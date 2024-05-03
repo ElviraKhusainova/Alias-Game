@@ -4,9 +4,11 @@ data = pn.read_excel('/home/elvira/Python/Aliase.xlsx', header = None)
 
 class Player:
 
-    def __init__(self, name, score = 0):  #you might want to handle cases where the player enters an empty name or a name with leading/trailing spaces.
+    def __init__(self, name, score = 0):  #to expand Player class with Score and Numer of Players
         self.name = name
         self.score = score
+
+#class Timer (methods def SetTheTimer)
 
 class GreatingsAndReports():
 
