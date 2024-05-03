@@ -4,11 +4,11 @@ data = pn.read_excel('/home/elvira/Python/Aliase.xlsx', header = None)
 
 class Player:
 
-    def __init__(self, name, score = 0):  #to expand Player class with Score and Numer of Players
+    def __init__(self, name, score = 0):  #to expand Player class with Score and Numer of Players (method def CountTheScore for Playes's score)
         self.name = name
         self.score = score
 
-#class Timer (methods def SetTheTimer)
+#toadd a class Timer (methods def SetTheTimer and def SwitchOfTheTimer)
 
 class GreatingsAndReports():
 
@@ -29,7 +29,7 @@ class GreatingsAndReports():
 
 class Button:
 
-    def StartTheGame(yesorno):    #method currently doesn't do much except returning the input. You might want to consider adding more functionality to this method. You might want to modify this method to perform some validation or additional actions before returning the input.
+    def StartTheGame(yesorno):    #method currently doesn't do much except returning the input. I want to consider adding more functionality to this method. You might want to modify this method to perform some validation or additional actions before returning the input.
         return yesorno
     
     def PressToStart(press):
@@ -61,7 +61,7 @@ class FileReader:
         
 class RandomWord:
 
-    def GiveMeTheRandomWord(Words):              #you might want to handle the case where the list is empty.
+    def GiveMeTheRandomWord(Words):              #I want to handle the case where the list is empty.
         random_word = random.choice(Words[1:])
         return random_word
 
